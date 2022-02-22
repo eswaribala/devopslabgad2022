@@ -94,6 +94,14 @@ or
 
 sudo apt install vim
 sudo nano ~/.gitconfig
+
+
+[user]
+        email = parameswaribala@gmail.com
+        name = eswaribala
+[merge]
+        tool = vim
+
 tool=vim
 
 git mergetool
