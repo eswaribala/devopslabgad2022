@@ -1,0 +1,11 @@
+docker -v
+docker images
+docker container ls -a
+docker volume ls
+docker network ls
+docker login
+docker pull mongo
+docker run --name mongo-c1 -p 27017:27017 -d mongo:latest #mongo server process
+docker exec -it mongo-c1 mongo #creates mongo client
+docker logs <containerid>
+
