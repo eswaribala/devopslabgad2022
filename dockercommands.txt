@@ -9,3 +9,8 @@ docker run --name mongo-c1 -p 27017:27017 -d mongo:latest #mongo server process
 docker exec -it mongo-c1 mongo #creates mongo client
 docker logs <containerid>
 
+#build the image
+pull the project from git
+check dockerfile
+docker build -f ./Dockerfile -t invapp .
+
