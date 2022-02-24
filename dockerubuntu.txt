@@ -6,3 +6,5 @@ If the above command fails, use the following
 
 sudo apt-get install -y docker.io
 and check docker -v
+
+ sudo usermod -aG docker $USER
