@@ -8,3 +8,14 @@ sudo apt-get install -y docker.io
 and check docker -v
 
  sudo usermod -aG docker $USER
+ 
+ #java project
+git pull https://github.com/eswaribala/devopsgradskillprojects.git
+cd projectfolder
+sudo apt-get update
+sudo apt install maven
+mvn -v
+sudo apt install openjdk-8-jdk
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+mvn clean install -DskipTests
+docker-compose up
