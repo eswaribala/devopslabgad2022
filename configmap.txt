@@ -1,0 +1,4 @@
+kubectl create configmap configmap-example-1 --from-file=./config-map-data.txt
+kubectl describe configmap/configmap-example-1
+kubectl delete configmap/configmap-example-1
+
