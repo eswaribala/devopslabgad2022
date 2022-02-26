@@ -19,6 +19,9 @@ ansible-inventory --list -y
 
 ansible all -m ping -u root
 
+Incase host key error
+export ANSIBLE_HOST_KEY_CHECKING=False
+
 ansible commands
 ansible --version
 Managing Packages
