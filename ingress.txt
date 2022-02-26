@@ -1,1 +1,2 @@
 kubectl api-resources
+sudo microk8s enable ingress 
