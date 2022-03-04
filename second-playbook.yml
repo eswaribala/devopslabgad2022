@@ -1,0 +1,21 @@
+---
+
+- name: Network Getting Started First Playbook
+  hosts: all
+  become: yes
+
+  vars:
+   greeting: Rocking with ansible!
+
+  tasks:
+   - name: creating new directory
+     file:
+       path: "home/samples9952032862"
+       state: directory
+
+   - name: deploying playbook vars
+     copy:
+      dest: "home/samples9952032862/test.txt"
+      content: "{{greeting}}"
+
+
