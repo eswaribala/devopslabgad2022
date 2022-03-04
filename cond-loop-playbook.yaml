@@ -1,0 +1,11 @@
+---
+- hosts: all
+  tasks:
+  - name: Ansible loop with conditional example
+    debug:
+      msg: "{{ item }}"
+    with_items:
+      - "instance1"
+      - "instance2"
+      - "instance3"
+    when: ansible_distribution == "MacOSX"
