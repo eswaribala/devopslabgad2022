@@ -11,3 +11,4 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 echo ${JAVA_HOME}
+https://github.com/eswaribala/usmsbootcampjan2022projects.git
