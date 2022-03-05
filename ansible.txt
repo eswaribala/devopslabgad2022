@@ -7,9 +7,9 @@ sudo nano /etc/ansible/hosts
 With proper space
 
 [servers]
-  server1 ansible_host=202.21.38.169 ansible_user=root ansible_password=3j8m8Je!qD~p
-  server2 ansible_host=202.21.38.170 ansible_user=root ansible_password=V~XEAN~rde@3
-  server3 ansible_host=202.21.38.171 ansible_user=root ansible_password=37kJ$9ewDtC9
+  server1 ansible_host=202.23.38.169 ansible_user=root ansible_password=3j8mwr4wt8Je!qD~p
+  server2 ansible_host=202.24.38.170 ansible_user=root ansible_password=V~XErtretAN~rde@3
+  server3 ansible_host=202.25.38.171 ansible_user=root ansible_password=37kJ$rtrtre9ewDtC9
 
 
 [all:vars]
