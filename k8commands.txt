@@ -7,7 +7,7 @@ kubeadm with --apiserver-advertise-address=Master_IP and --pod-network-cidr=10.2
 
 kubeadm join 172.20.0.189:6443 --token ec0xa4.48glrgpjbz7kllo3 \
 	--discovery-token-ca-cert-hash sha256:881569e33d66251b43e7ae2e3c40481184f495519200bbf4504d6d11975faf1c
-
+sudo kubeadm init --apiserver-advertise-address=172.105.148.95 --apiserver-cert-extra-sans=172.105.148.95 --pod-network-cidr=192.168.0.0/16 --node-name primary
 sudo kubeadm reset
 sudo apt-get install -qy kubelet kubectl kubeadm
 sudo apt-mark hold kubelet kubeadm kubectl
