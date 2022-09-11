@@ -31,9 +31,8 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 sudo kubeadm init --control-plane-endpoint kube-master:6443 --pod-network-cidr=192.168.0.0/16
 kubeadm join 172.20.0.189:6443 --token gqrrfe.f00a3sl91u5ztvsl \
-	--discovery-token-ca-cert-hash sha256:925f8278455bbad7d5f72156d391d535a3a09db2d650b963cfa9d55623df5533 
-
-
+	--discovery-token-ca-cert-hash sha256:925f8278455bbad7d5f72156d391d535a3a09db2d650b963cfa9d55623df55
+kubeadm join 172.20.0.189:6443 --token p24y53.979ymgbqf7uw0pzy --discovery-token-ca-cert-hash sha256:925f8278455bbad7d5f72156d391d535a3a09db2d650b963cfa9d55623df5533
 kubectl version
 kubectl cluster-info
 kubectl cluster-info dump
