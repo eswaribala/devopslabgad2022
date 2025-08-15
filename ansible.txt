@@ -57,10 +57,10 @@ https://www.digitalocean.com/community/tutorial_series/how-to-write-ansible-play
 
   hosts: all
   vars:
-   greeting: Rocking with ansible!
+   greeting: "Rocking with ansible!"
 
   tasks:
-   - name: using variables in playbook
+   - name: "using variables in playbook"
      debug:
        msg: "{{greeting}}"
 
