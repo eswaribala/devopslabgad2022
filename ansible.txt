@@ -4,6 +4,10 @@ sudo apt update
 sudo apt install ansible
 
 create ansible instance using ec2
+convert ppk to pem file using mobaxterm tools
+drag and drop pem to mobaxterm home
+cp niitkeypair.pem ~/.ssh
+
 sudo apt install python3         # install python
 sudo apt install python3-pip     # install pip
 pip install boto boto3 ansible  # install boto, boto3, and ansible
