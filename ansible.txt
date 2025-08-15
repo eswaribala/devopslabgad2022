@@ -38,6 +38,10 @@ export ANSIBLE_HOST_KEY_CHECKING=False
 
 ansible commands
 ansible --version
+# adjust owner (replace with your username if different)
+sudo chown eswaribala:eswaribala /home/eswaribala/.ssh /home/eswaribala/.ssh/niitkeypair.pem
+chmod 700 /home/eswaribala/.ssh
+chmod 600 /home/eswaribala/.ssh/niitkeypair.pem
 Managing Packages
 Following are some of the ad-hoc commands using yum that check if the yum package is installed or not (but not for updating it)
 
