@@ -3,6 +3,11 @@ sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible
 
+create ansible instance using ec2
+sudo apt install python3         # install python
+sudo apt install python3-pip     # install pip
+pip install boto boto3 ansible  # install boto, boto3, and ansible
+
 sudo nano /etc/ansible/hosts
 With proper space
 
